@@ -1,0 +1,9 @@
+{
+  "name": "test_chain",
+  "version": "0.0.0",
+  "description": "Test_Chain",
+  "main": "app.js",
+  "author": {
+    "name": "Jacob Ickler"
+  }
+}
