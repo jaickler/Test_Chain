@@ -32,6 +32,9 @@
     <Compile Include="Block.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="block.test.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="devTest.js">
       <SubType>Code</SubType>
     </Compile>
