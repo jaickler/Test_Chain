@@ -35,6 +35,12 @@
     <Compile Include="block.test.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="blockchain.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="blockchain.test.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="devTest.js">
       <SubType>Code</SubType>
     </Compile>
