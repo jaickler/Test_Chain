@@ -29,6 +29,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="app\p2p-server.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Blockchain\Block.js">
       <SubType>Code</SubType>
     </Compile>
@@ -39,6 +42,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Blockchain\index.test.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="config.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="devTest.js">
