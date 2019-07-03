@@ -44,6 +44,9 @@
     <Compile Include="Blockchain\index.test.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="chain-util.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="config.js">
       <SubType>Code</SubType>
     </Compile>
@@ -53,12 +56,19 @@
     <Compile Include="app\index.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="wallet\index.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wallet\transaction.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Blockchain\" />
     <Folder Include="app\" />
+    <Folder Include="wallet\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
