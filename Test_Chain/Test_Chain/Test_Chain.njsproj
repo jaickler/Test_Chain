@@ -62,6 +62,9 @@
     <Compile Include="wallet\transaction.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="wallet\transaction.test.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
