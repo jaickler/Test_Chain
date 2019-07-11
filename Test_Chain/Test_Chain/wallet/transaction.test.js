@@ -60,4 +60,22 @@ describe('Transaction', () => {
             expect(transactions.outputs.find(output => output.address === nextRecipient).amount).toEqual(nextAmount);
         });
     });
+
+    describe('and updating a transaction', () => {
+        let nextAmount, nextRecipient;
+
+        beforeEach(() => {
+            nextAmount = 20;
+            nextRecipient = 'next-guy';
+            transactions = transactions.update(wallet, nextRecipient, nextAmount);
+        });
+
+        it('subtracts the next amount from the seder\'s output', () => {
+            expect(transactions.outputs.find(output => output.address === wallet.publicKey).amount).toEqual(wallet.balance - amount - nextAmount);
+        });
+
+        it('outputs an amount for the next recipient', () => {
+            expect(transactions.outputs.find(output => output.address === nextRecipient).amount).toEqual(nextAmount);
+        });
+    });
 });

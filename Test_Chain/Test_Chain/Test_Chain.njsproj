@@ -59,6 +59,15 @@
     <Compile Include="wallet\index.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="wallet\index.test.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wallet\transaction-pool.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wallet\Transaction-pool.test.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="wallet\transaction.js">
       <SubType>Code</SubType>
     </Compile>
