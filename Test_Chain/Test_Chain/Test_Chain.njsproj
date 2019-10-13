@@ -29,6 +29,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="app\miner.js" />
     <Compile Include="app\p2p-server.js">
       <SubType>Code</SubType>
     </Compile>
